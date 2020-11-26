@@ -1,4 +1,4 @@
-# cnpm_project
+# Bài tập lớn Nhập môn công nghệ phần mềm
 - Mô tả bài toán:
 Tổ dân phố có một quỹ riêng để cấp phần thưởng / phần quà cho các cháu nhỏ hoặc
 các cháu đang trong độ tuổi đi học có thành tích học tập xuất sắc. Các dịp đặc biệt
