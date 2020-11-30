@@ -46,7 +46,8 @@ public class DeleteJFrame extends javax.swing.JFrame {
                 close();
             }
             
-        });
+          }
+        );
     }
     
     private void close() {
