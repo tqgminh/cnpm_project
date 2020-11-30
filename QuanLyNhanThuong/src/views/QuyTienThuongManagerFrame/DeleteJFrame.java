@@ -55,6 +55,7 @@ public class DeleteJFrame extends javax.swing.JFrame {
             dispose();
         }
     }
+
     
     private boolean checkID(String ID) {
         //code here

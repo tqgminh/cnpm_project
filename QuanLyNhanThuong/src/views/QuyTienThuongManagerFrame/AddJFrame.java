@@ -6,6 +6,7 @@
 package views.QuyTienThuongManagerFrame;
 
 
+
 import controllers.QuyTienThuongManagerController.AddController;
 import controllers.QuyTienThuongPanelController;
 import java.awt.event.WindowAdapter;
@@ -59,7 +60,6 @@ public class AddJFrame extends javax.swing.JFrame {
             public void refreshData() {
                 // do nothing
             }
-
             public void initAction() {
                 // do nothing
             }
