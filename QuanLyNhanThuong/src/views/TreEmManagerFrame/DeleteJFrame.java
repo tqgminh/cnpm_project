@@ -207,7 +207,7 @@ public class DeleteJFrame extends javax.swing.JFrame {
 
     // hàm xác nhận xóa
     private void confirmBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmBtnActionPerformed
-        if (this.IDJtf.getText().trim().isEmpty() || this.lyDoJta.getText().trim().isEmpty()) {
+        if (this.IDJtf.getText().trim().isEmpty()) {
             JOptionPane.showMessageDialog(null, "Vui lòng nhập hết các trường bắt buộc!!", "Warning!", JOptionPane.NO_OPTION);
         } else {
             try {

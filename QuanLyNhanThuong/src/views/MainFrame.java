@@ -76,9 +76,9 @@ public class MainFrame extends javax.swing.JFrame {
 
         jpnContainer.setBackground(new java.awt.Color(255, 255, 255));
 
-        jpnMenu.setBackground(new java.awt.Color(153, 153, 153));
+        jpnMenu.setBackground(new java.awt.Color(115, 136, 193));
 
-        homeBtn.setBackground(new java.awt.Color(0, 160, 50));
+        homeBtn.setBackground(new java.awt.Color(0, 178, 191));
 
         jblTrangChu.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jblTrangChu.setForeground(new java.awt.Color(255, 255, 255));
@@ -102,7 +102,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addGap(21, 21, 21))
         );
 
-        hocSinhGioiBtn.setBackground(new java.awt.Color(102, 102, 102));
+        hocSinhGioiBtn.setBackground(new java.awt.Color(66, 110, 180));
         hocSinhGioiBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jlbHocSinhGioi.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
@@ -129,7 +129,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         jlbHocSinhGioi.getAccessibleContext().setAccessibleDescription("");
 
-        treEmBtn.setBackground(new java.awt.Color(102, 102, 102));
+        treEmBtn.setBackground(new java.awt.Color(66, 110, 180));
         treEmBtn.addAncestorListener(new javax.swing.event.AncestorListener() {
             public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
             }
@@ -171,7 +171,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        quyTienThuongBtn.setBackground(new java.awt.Color(102, 102, 102));
+        quyTienThuongBtn.setBackground(new java.awt.Color(66, 110, 180));
 
         jlbQuyTienThuong.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jlbQuyTienThuong.setForeground(new java.awt.Color(255, 255, 255));
@@ -195,7 +195,7 @@ public class MainFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        hoGiaDinhBtn.setBackground(new java.awt.Color(102, 102, 102));
+        hoGiaDinhBtn.setBackground(new java.awt.Color(66, 110, 180));
         hoGiaDinhBtn.addAncestorListener(new javax.swing.event.AncestorListener() {
             public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
             }

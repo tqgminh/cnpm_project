@@ -3,49 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/HomePagePanel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/TreEmManagerController/AddController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/services/HocSinhGioiService.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/utility/ClassTableModel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/LoginUI.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/TreEmPanelController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/models/HocSinhGioiModel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/QuyTienThuongManagerFrame/AddJFrame.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/HocSinhGioiManagerFrame/CertificateJFrame.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/infoViews/InfoJframe.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/models/HoGiaDinhModel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/services/QuyTienThuongService.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/TreEmManagePanel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/LoginController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/quanlynhanthuong/QuanLyNhanThuong.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/HocSinhGioiManagerFrame/DeleteJFrame.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/HocSinhGioiManagerController/AddController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/QuyTienThuongManagerController/DeleteController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/services/TreEmService.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/Bean/DanhMucBean.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/services/HoGiaDinhService.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/TreEmManagerController/DeleteController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/QuyTienThuongManagerController/AddController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/models/TreEmModel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/services/StringService.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/MainFrame.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/HomeCotroller.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/HocSinhGioiManagerController/DeleteController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/models/QuyTienThuongModel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/HocSinhGioiManagerController/CertificateController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/HoGiaDinhManagePanel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/QuyTienThuongManagerFrame/DeleteJFrame.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/QuyTienThuongPanelController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/HoGiaDinhPanelController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/HocSinhGioiPanelController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/TreEmManagerFrame/AddJFrame.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/QuyTienThuongPanel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/HocSinhGioiManagerFrame/AddJFrame.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/controllers/MainController.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/HocSinhGioiManagePanel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/models/UserModel.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/services/MysqlConnection.java</file>
-            <file>file:/D:/Documents/Source%20Code/QuanLyNhanThuong/src/views/TreEmManagerFrame/DeleteJFrame.java</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/money%20(1).png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/students.png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/checked.png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/budget.png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/corruption.png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/getmoney.png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/views/HocSinhGioiManagePanel.java</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/family.png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/app.png</file>
+            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/award.png</file>
         </group>
     </open-files>
 </project-private>

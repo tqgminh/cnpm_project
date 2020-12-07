@@ -216,7 +216,7 @@ public class DeleteJFrame extends javax.swing.JFrame {
                 this.parentJFrame.setEnabled(true);
                 dispose();
         }*/
-     if (this.jTextField1.getText().trim().isEmpty() || this.jTextArea1.getText().trim().isEmpty()) {
+     if (this.jTextField1.getText().trim().isEmpty()) {
             JOptionPane.showMessageDialog(null, "Vui lòng nhập hết các trường bắt buộc!!", "Warning!", JOptionPane.NO_OPTION);
         } else {
             try {

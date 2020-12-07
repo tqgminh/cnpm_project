@@ -66,7 +66,7 @@
         <Container class="javax.swing.JPanel" name="jpnMenu">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="99" green="99" red="99" type="rgb"/>
+              <Color blue="c1" green="88" red="73" type="rgb"/>
             </Property>
           </Properties>
 
@@ -106,7 +106,7 @@
             <Container class="javax.swing.JPanel" name="homeBtn">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="32" green="a0" red="0" type="rgb"/>
+                  <Color blue="bf" green="b2" red="0" type="rgb"/>
                 </Property>
               </Properties>
 
@@ -150,7 +150,7 @@
             <Container class="javax.swing.JPanel" name="hocSinhGioiBtn">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="b4" green="6e" red="42" type="rgb"/>
                 </Property>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Default Cursor"/>
@@ -203,7 +203,7 @@
             <Container class="javax.swing.JPanel" name="treEmBtn">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="b4" green="6e" red="42" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -253,7 +253,7 @@
             <Container class="javax.swing.JPanel" name="quyTienThuongBtn">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="b4" green="6e" red="42" type="rgb"/>
                 </Property>
               </Properties>
 
@@ -297,7 +297,7 @@
             <Container class="javax.swing.JPanel" name="hoGiaDinhBtn">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
+                  <Color blue="b4" green="6e" red="42" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
