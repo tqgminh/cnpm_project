@@ -122,7 +122,7 @@ public class HocSinhGioiModel {
                 + "<p>Thành tích: <b>" + this.getThanhTich()+ "</p>"
                 + "<p>Chứng nhận: <b>" + chungNhan+ "</p>"
                 + "<p>Phần thưởng: <b>" + this.getPhanThuong()+ "</p>"
-                + "<p>Giá trị phần thưởng: <b>" + this.getGiaTri()+ "</p>"
+                + "<p>Giá trị phần thưởng: <b>" + this.getGiaTri()+" đồng"+"</p>"
                 + "<p>Ngày nhận thưởng: <b>" + this.getNgayThuong()+ "</p>"
                 + "<table id = 't01'>"
                 + "<tr>"
@@ -142,7 +142,7 @@ public class HocSinhGioiModel {
                 + "<td>" + this.getThanhTich()+ "</th>"
                 + "<td>" + chungNhan+ "</th>"
                 + "<td>" + this.getPhanThuong()+ "</th>"
-                + "<td>" + this.getGiaTri()+ "</th>"
+                + "<td>" + this.getGiaTri()+" đồng"+"</th>"
                 + "<td>" + this.getNgayThuong()+ "</th>"
                 + "</tr>";
         res +=  "</table>"

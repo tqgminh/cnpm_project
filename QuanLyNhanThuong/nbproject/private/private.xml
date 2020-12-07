@@ -3,16 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/money%20(1).png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/students.png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/checked.png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/budget.png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/corruption.png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/getmoney.png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/views/HocSinhGioiManagePanel.java</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/family.png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/app.png</file>
-            <file>file:/C:/Users/admin/cnpm_project/QuanLyNhanThuong/src/Icons/award.png</file>
+            <file>file:/C:/Users/admin/cnpmproject/QuanLyNhanThuong/src/models/QuyTienThuongModel.java</file>
+            <file>file:/C:/Users/admin/cnpmproject/QuanLyNhanThuong/src/models/TreEmModel.java</file>
+            <file>file:/C:/Users/admin/cnpmproject/QuanLyNhanThuong/src/models/HoGiaDinhModel.java</file>
+            <file>file:/C:/Users/admin/cnpmproject/QuanLyNhanThuong/src/models/HocSinhGioiModel.java</file>
         </group>
     </open-files>
 </project-private>

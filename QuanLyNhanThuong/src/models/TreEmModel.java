@@ -92,7 +92,7 @@ public class TreEmModel {
                 + "<p>Họ tên trẻ: <b>" + this.getHoTen()+ "</p>"
                 + "<p>Tuổi: <b>" + this.getTuoi()+ "</p>"
                 + "<p>Phần thưởng: <b>" + this.getPhanThuong()+ "</p>"
-                + "<p>Giá trị phần thưởng: <b>" + this.getGiaTri()+ "</p>"
+                + "<p>Giá trị phần thưởng: <b>" + this.getGiaTri()+" đồng"+ "</p>"
                 + "<p>Ngày thưởng: <b>" + this.getNgayThuong()+ "</p>"
                 
                 + "<table id = 't01'>"
@@ -107,7 +107,7 @@ public class TreEmModel {
                 + "<td>" + this.getHoTen()+ "</td>"
                 + "<td>" + this.getTuoi()+ "</td>"
                 + "<td>" + this.getPhanThuong()+ "</th>"
-                + "<td>" + this.getGiaTri()+ "</th>"
+                + "<td>" + this.getGiaTri()+" đồng"+ "</th>"
                 + "<td>" + this.getNgayThuong()+ "</th>"
                 + "</tr>";
         res +=  "</table>"

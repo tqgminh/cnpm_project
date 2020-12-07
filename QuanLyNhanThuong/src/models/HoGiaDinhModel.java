@@ -162,7 +162,7 @@ public class HoGiaDinhModel {
                     + this.getListHocSinhGioi().get(i).getPhanThuong()
                     + "</td>"
                     + "<td>"
-                    + this.getListHocSinhGioi().get(i).getGiaTri()
+                    + this.getListHocSinhGioi().get(i).getGiaTri()+" đồng"
                     + "</td>"
                     + "<td>"
                     + this.getListHocSinhGioi().get(i).getNgayThuong()
@@ -191,7 +191,7 @@ public class HoGiaDinhModel {
                     + this.getListTreEm().get(i).getPhanThuong()
                     + "</td>"
                     + "<td>"
-                    + this.getListTreEm().get(i).getGiaTri()
+                    + this.getListTreEm().get(i).getGiaTri()+" đồng"
                     + "</td>"
                     + "<td>"
                     + this.getListTreEm().get(i).getNgayThuong()

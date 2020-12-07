@@ -62,7 +62,7 @@ public class QuyTienThuongModel {
                 + "#t01 tr:nth-child(odd) {background-color: #fff;} #t01 th {background-color: black;color: white;}</style><div>"
                 + "<h3>Thông tin cơ bản hộ gia đình:"
                 + "<p>Họ tên : <b>" + this.getHoTen()+ "</p>"
-                + "<p>" + kieu_thay_doi +"<b>" + this.getSoTien()*kieutien + "</p>"
+                + "<p>" + kieu_thay_doi +"<b>" + this.getSoTien()*kieutien+" đồng" + "</p>"
                 + "<p>Ngày thay đổi: <b>" + this.getNgayThang()+ "</p>"
                 + "<table id = 't01'>"
                 + "<tr>"
@@ -72,7 +72,7 @@ public class QuyTienThuongModel {
                 + "</tr>"
                 + "<tr>"
                 + "<td>" + this.getHoTen()+ "</td>"
-                + "<td>" + this.getSoTien()*kieutien + "</td>"
+                + "<td>" + this.getSoTien()*kieutien+" đồng" + "</td>"
                 + "<td>" + this.getNgayThang()+ "</th>"
                 + "</tr>";
         res +=  "</table>"
