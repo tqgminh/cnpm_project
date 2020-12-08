@@ -16,7 +16,6 @@ import views.QuyTienThuongManagerFrame.DeleteJFrame;
  * @author Khương
  */
 public class QuyTienThuongPanel extends javax.swing.JPanel {
-    
     private QuyTienThuongPanelController controller = null;
     private JFrame parentJFrame;
     /**
@@ -29,7 +28,20 @@ public class QuyTienThuongPanel extends javax.swing.JPanel {
         controller.setParentJFrame(parentJFrame);
         controller.setDataTable();
     }
-
+    
+  /* private QuyTienThuongPanelController controller = null;
+    private JFrame parentJFrame; */
+    /**
+     * Creates new form TimKiemPanel
+     */
+    /*
+    public QuyTienThuongPanel(JFrame parentFrame) {
+        this.parentJFrame = parentFrame;
+        initComponents();
+        controller = new QuyTienThuongPanelController(tablePanel, jtfSearch);
+        controller.setParentJFrame(parentJFrame);
+        controller.setDataTable();
+    } */
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
