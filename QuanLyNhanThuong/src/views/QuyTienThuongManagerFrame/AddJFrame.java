@@ -99,7 +99,6 @@ public class AddJFrame extends javax.swing.JFrame {
             || this.jTextField3.getText().trim().isEmpty()
             || this.jDateChooser2.getDateFormatString().isEmpty()) {
             JOptionPane.showMessageDialog(rootPane, "Vui lòng nhập hết các trường bắt buộc", "Warning", JOptionPane.WARNING_MESSAGE);
-
             return false;
         }
         return true;
