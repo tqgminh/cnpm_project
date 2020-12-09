@@ -34,9 +34,9 @@ public class DeleteJFrame extends javax.swing.JFrame {
         this.parentController = parentController;
         this.parentJFrame = parentJFrame;
         this.parentJFrame.setEnabled(false);
+
         initComponents();
         setTitle("Xóa nhà tài trợ");
-        
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         controller = new DeleteController();
         
@@ -201,18 +201,7 @@ public class DeleteJFrame extends javax.swing.JFrame {
     // xử lý nút xác nhận
     private void confirmBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmBtnActionPerformed
         // TODO add your handling code here:
-        /*  if (this.jTextField1.getText().trim().isEmpty() || this.jTextArea1.getText().trim().isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Vui lòng nhập hết các trường bắt buộc!!", "Warning!", JOptionPane.NO_OPTION);
-        } else {           
-                if (this.controller.deleteQuyTienThuong(this.quyTienThuongModel)){
-                    this.parentJFrame.setEnabled(true);
-                    dispose();
-                }else {
-                    JOptionPane.showMessageDialog(null, "Vui lòng nhập hết các trường bắt buộc!", "Warning!", JOptionPane.WARNING_MESSAGE);
-                }
-             
-                this.parentJFrame.setEnabled(true);
-                dispose();
+         dispose();
         }*/
      if (this.jTextField1.getText().trim().isEmpty() || this.jTextArea1.getText().trim().isEmpty()) {
             JOptionPane.showMessageDialog(null, "Vui lòng nhập hết các trường bắt buộc!!", "Warning!", JOptionPane.NO_OPTION);
