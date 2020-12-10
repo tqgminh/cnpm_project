@@ -13,3 +13,6 @@ và giá trị tiền tương ứng. Phần thưởng cho thành tích học t�
 (học sinh giỏi và các thành tích đặc biệt: 10 cuốn, học sinh tiên tiến: 7 cuốn, còn lại
 là 5 cuốn). Cán bộ hành chính cũng cần thống kê tổng các phần quà và giá trị tương
 ứng đã phát trong mỗi lần và xem chi tiết mỗi hộ đã nhận những phần quà nào.
+
+# Hướng dẫn cài đặt
+
