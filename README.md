@@ -15,4 +15,8 @@ là 5 cuốn). Cán bộ hành chính cũng cần thống kê tổng các phần
 ứng đã phát trong mỗi lần và xem chi tiết mỗi hộ đã nhận những phần quà nào.
 
 # Hướng dẫn cài đặt
-
+- Bước 1: Download các phần mềm Netbeans và XAMPP
+- Bước 2: Thực hiện import cơ sở dữ liệu trên phần mềm XAMPP
+- Bước 3: Mở phần mềm Netbeans và chọn nút File -> Open Project...
+- Bước 4: Sau khi thực hiện bước 3, chỉnh đường dẫn tới thư mục chứa source code
+- Bước 5: Nhấn run để chạy và sử dụng phần mềm
