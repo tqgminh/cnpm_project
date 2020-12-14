@@ -1,6 +1,10 @@
 package models;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.Date;
+import services.MysqlConnection;
 /**
  *
  * @author Hoàng
@@ -107,6 +111,29 @@ public class HocSinhGioiModel {
         this.ngayThuong = ngayThuong;
     }
     
+    public HoGiaDinhModel getHoGiaDinhModel() {
+        HoGiaDinhModel hoGiaDinh = new HoGiaDinhModel();
+        try {
+            Connection connection = MysqlConnection.getMysqlConnection();
+            String query = "SELECT ho_gia_dinh.* " + 
+                    "FROM ho_gia_dinh, hoc_sinh_gioi " + 
+                    "WHERE ho_gia_dinh.id = hoc_sinh_gioi.id_hoGiaDinh and hoc_sinh_gioi.id = " +
+                    ID;
+            PreparedStatement preparedStatement = (PreparedStatement) connection.prepareStatement(query);
+            ResultSet rs = preparedStatement.executeQuery();
+            while(rs.next()) {
+                hoGiaDinh.setID(rs.getInt("id"));
+                hoGiaDinh.setChuHo(rs.getString("chuHo"));
+                hoGiaDinh.setDiaChi(rs.getString("diaChi"));
+                hoGiaDinh.setSoTien(rs.getInt("soTien"));
+            }
+            preparedStatement.close();
+            connection.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return hoGiaDinh;
+    }
     // hàm lấy thông tin học sinh giỏi theo mã html
     // thông tin gồm ID, tên, tuổi, trường lớp, thành tích, chứng nhận, ID hộ gia đình, phần thưởng, giá trị, ngày tháng
     @Override
@@ -115,7 +142,7 @@ public class HocSinhGioiModel {
         String res =  "<html><style>h3 {margin-left: 100px; color: blue;} table { width: 100%} table, th, td {border:1px solid black; border-collapse: collapse;}"
                 + "th, td {padding: 15px; text-align: left;} #t01 tr:nth-child(even) { background-color: #eee;}"
                 + "#t01 tr:nth-child(odd) {background-color: #fff;} #t01 th {background-color: black;color: white;}</style><div>"
-                + "<h3>Thông tin cơ bản hộ gia đình:"
+                + "<h3>Thông tin cơ bản:"
                 + "<p>Họ tên học sinh: <b>" + this.getHoTen()+ "</p>"
                 + "<p>Tuổi: <b>" + this.getTuoi()+ "</p>"
                 + "<p>Trường lớp: <b>" + this.getTruongLop()+ "</p>"
@@ -124,29 +151,9 @@ public class HocSinhGioiModel {
                 + "<p>Phần thưởng: <b>" + this.getPhanThuong()+ "</p>"
                 + "<p>Giá trị phần thưởng: <b>" + this.getGiaTri()+" đồng"+"</p>"
                 + "<p>Ngày nhận thưởng: <b>" + this.getNgayThuong()+ "</p>"
-                + "<table id = 't01'>"
-                + "<tr>"
-                + "<th>Họ tên</th>"
-                + "<th>Tuổi</th>"
-                + "<th>Trường lớp</th>"
-                + "<th>Thành tích</th>"
-                + "<th>Chứng nhận</th>"
-                + "<th>Phần thưởng</th>"
-                + "<th>Giá trị phần thưởng</th>"
-                + "<th>Ngày nhận thưởng</th>"
-                + "</tr>"
-                + "<tr>"
-                + "<td>" + this.getHoTen()+ "</td>"
-                + "<td>" + this.getTuoi()+ "</td>"
-                + "<td>" +  this.getTruongLop()+ "</th>"
-                + "<td>" + this.getThanhTich()+ "</th>"
-                + "<td>" + chungNhan+ "</th>"
-                + "<td>" + this.getPhanThuong()+ "</th>"
-                + "<td>" + this.getGiaTri()+" đồng"+"</th>"
-                + "<td>" + this.getNgayThuong()+ "</th>"
-                + "</tr>";
-        res +=  "</table>"
-                + "</div></html>";
+                + "<p>Họ tên chủ hộ: <b>" + this.getHoGiaDinhModel().getChuHo()+ "</p>"
+                + "<p>Địa chỉ: <b>"+ this.getHoGiaDinhModel().getDiaChi()+"</p>";
+        res += "</div></html>";
         return res;
     }
     

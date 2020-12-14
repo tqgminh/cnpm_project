@@ -1,6 +1,10 @@
 package models;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.Date;
+import services.MysqlConnection;
 
 /**
  *
@@ -81,6 +85,30 @@ public class TreEmModel {
         this.ngayThuong = ngayThuong;
     }
     
+    public HoGiaDinhModel getHoGiaDinhModel() {
+        HoGiaDinhModel hoGiaDinh = new HoGiaDinhModel();
+        try {
+            Connection connection = MysqlConnection.getMysqlConnection();
+            String query = "SELECT ho_gia_dinh.* " + 
+                    "FROM ho_gia_dinh, tre_em " + 
+                    "WHERE ho_gia_dinh.id = tre_em.id_hoGiaDinh and tre_em.id = " +
+                    ID;
+            PreparedStatement preparedStatement = (PreparedStatement) connection.prepareStatement(query);
+            ResultSet rs = preparedStatement.executeQuery();
+            while(rs.next()) {
+                hoGiaDinh.setID(rs.getInt("id"));
+                hoGiaDinh.setChuHo(rs.getString("chuHo"));
+                hoGiaDinh.setDiaChi(rs.getString("diaChi"));
+                hoGiaDinh.setSoTien(rs.getInt("soTien"));
+            }
+            preparedStatement.close();
+            connection.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return hoGiaDinh;
+    }
+    
     // hàm lấy thông tin trẻ em theo mã html
     // cần in ra các thông tin gồm ID, họ tên, tuổi, ID gia đình, phần thưởng, giá trị, ngày tháng,..
     @Override
@@ -94,7 +122,9 @@ public class TreEmModel {
                 + "<p>Phần thưởng: <b>" + this.getPhanThuong()+ "</p>"
                 + "<p>Giá trị phần thưởng: <b>" + this.getGiaTri()+" đồng"+ "</p>"
                 + "<p>Ngày thưởng: <b>" + this.getNgayThuong()+ "</p>"
-                
+                + "<p>Họ tên chủ hộ: <b>" + this.getHoGiaDinhModel().getChuHo()+ "</p>"
+                + "<p>Địa chỉ: <b>"+ this.getHoGiaDinhModel().getDiaChi()+"</p>";
+        /*
                 + "<table id = 't01'>"
                 + "<tr>"
                 + "<th>Họ tên</th>"
@@ -109,9 +139,8 @@ public class TreEmModel {
                 + "<td>" + this.getPhanThuong()+ "</th>"
                 + "<td>" + this.getGiaTri()+" đồng"+ "</th>"
                 + "<td>" + this.getNgayThuong()+ "</th>"
-                + "</tr>";
-        res +=  "</table>"
-                + "</div></html>";
+                + "</tr>";*/
+        res += "</div></html>";
         return res;
     }
 }
